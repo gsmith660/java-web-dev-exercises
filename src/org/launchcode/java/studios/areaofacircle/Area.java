@@ -13,6 +13,7 @@ public class Area {
             while (!input.hasNextDouble()) {
                 System.out.println("Error: You must enter a number!");
                 input.next();
+                System.out.print("Enter a radius: ");
             }
             radius = input.nextDouble();
             if (radius < 0) {
