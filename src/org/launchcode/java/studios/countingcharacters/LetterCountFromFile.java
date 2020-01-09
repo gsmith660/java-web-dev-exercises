@@ -20,6 +20,7 @@ public class LetterCountFromFile {
 
         in.useDelimiter("\\Z");
         String frequencyCountString = in.next();
+        in.close();
 
         Map<Character, Integer> counts = new HashMap<>();
         for (char c : frequencyCountString.toCharArray()) {
