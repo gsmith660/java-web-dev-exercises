@@ -17,7 +17,7 @@ public class CharCount {
         input.close();
 
 
-        HashMap<Character, Integer> counts = new HashMap<>();
+        Map<Character, Integer> counts = new HashMap<>();
 
         for (char c : frequencyCountString.toCharArray()) {
             if (Character.isLetter(c)) {
