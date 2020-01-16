@@ -6,6 +6,13 @@ public class Teacher {
     private String subject;
     private int yearsTeaching;
 
+    public Teacher(String firstName, String lastName, String subject, int yearsTeaching) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.subject = subject;
+        this.yearsTeaching = yearsTeaching;
+    }
+
     public int getYearsTeaching() {
         return yearsTeaching;
     }

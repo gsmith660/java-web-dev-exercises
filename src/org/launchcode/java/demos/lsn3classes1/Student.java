@@ -18,13 +18,25 @@ public class Student {
         setGPA(4.0);
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getStudentId() {
+        return studentId;
+    }
+
+    public int getNumberOfCredits() {
+        return numberOfCredits;
+    }
+
+    public double getGPA() {
+        return gpa;
+    }
+
 
     private void setName(String aName) {
         name = aName;
-    }
-
-    public String getName() {
-        return name;
     }
 
     private void setStudentId(int aStudentId) {
@@ -32,24 +44,12 @@ public class Student {
         nextStudentId++;
     }
 
-    public int getStudentId() {
-        return studentId;
-    }
-
     public void setNumberOfCredits(int aNumberOfCredits) {
         numberOfCredits = aNumberOfCredits;
     }
 
-    public int getNumberOfCredits() {
-        return numberOfCredits;
-    }
-
     public void setGPA(double aGPA) {
         gpa = aGPA;
-    }
-
-    public double getGPA() {
-        return gpa;
     }
 
 }
